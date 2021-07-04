@@ -132,3 +132,66 @@
         margin-left: 25px;
     }
 }
+
+@media only screen and (max-width: 760px) {
+    .step-one, .step-two, .step-three, .step-four {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .step-one h4, .step-two h4, .step-three h4, .step-four h4 {
+        font-size: 16px;
+    }
+
+    .step-one small, .step-two small, .step-three small, .step-four small {
+        font-size: 12px;
+    }
+
+    .step-one p, .step-two p, .step-three p, .step-four p {
+        font-size: 14px;
+    }
+
+    .step-one input {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .step-two {
+        text-align: center;
+    }
+
+    .step-two p {
+        margin-bottom: 40px;
+    }
+
+    .step-two .card {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .step-three {
+        text-align: center;
+    }
+
+    .step-three p {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .step-four {
+        text-align: center;
+    }
+
+    .step-four p {
+        margin-bottom: 40px;
+    }
+
+    .step-four input {
+        text-align: center;
+    }
+}
+
+
