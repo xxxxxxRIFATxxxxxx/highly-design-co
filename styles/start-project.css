@@ -1,0 +1,134 @@
+/* Start Project Page CSS */
+.form-box {
+    position: relative;
+}
+
+.start-project .form-control {
+    border: none;
+    border-bottom: 2px solid #a3a3a3;
+}
+
+.project-form {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .rectangle-img {
+        display: none;
+    }
+
+    .form-box {
+        position: static;
+    }
+
+    .project-form {
+        position: static;
+    }
+}
+
+.step-one {
+    display: block;
+}
+
+.step-two {
+    display: none;
+}
+
+.step-three {
+    display: none;
+}
+
+.step-four {
+    display: none;
+}
+
+.small-text-form-two {
+    font-size: 14px;
+}
+
+.blue-button-border {
+    border: 2px solid rgb(6, 17, 234) !important;
+    border-radius: 5px;
+}
+
+.form-link {
+    text-decoration: underline;
+}
+
+/* Successful Brands CSS */
+.successful-brands .custom-icon {
+    font-size: 14px;
+}
+
+.successful-brands .custom-icon img {
+    width: 15px;
+}
+
+@media only screen and (max-width: 760px) {
+    .successful-brands h4 {
+        font-size: 18px;
+    }
+
+    .successful-brands-list {
+        text-align: center;
+    }
+}
+
+/* Waste Time */
+.waste-time-border {
+    border-bottom: 1px solid #a3a3a3;
+    margin: 0 85px;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .waste-time h4 {
+        font-size: 16px;
+    }
+
+    .waste-time small {
+        font-size: 13px;
+    }
+
+    .waste-time-list {
+        text-align: center;
+    }
+}
+
+/* Good Product CSS */
+@media only screen and (max-width: 760px) {
+    .good-product h4 {
+        font-size: 16px;
+    }
+}
+
+/* Location CSS */
+.location-one .circle, .location-two .circle, .location-three .circle, .location-four .circle {
+    border-radius: 50%;
+    padding: 7px 11px;
+    border: 1px solid rgb(6, 17, 234);
+}
+
+.location-one {
+    display: block;
+}
+
+.location-two {
+    display: none;
+}
+
+.location-three {
+    display: none;
+}
+
+.location-four {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .location-one, .location-two, .location-three, .location-four {
+        margin-left: 25px;
+    }
+}

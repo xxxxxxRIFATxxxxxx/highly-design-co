@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+
+    <!-- Fav Icon -->
+    <link rel="icon" href="images/logo.png" type="image/gif" />
+
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e422e8ad98.js" crossorigin="anonymous"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles/dashboard.css">
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar bg-primary">
+        <div class="logo-details mt-3">
+            <a href="dashboard.html">
+                <i class="fas fa-user-shield"></i>
+                <span class="logo_name fw-normal">Admin</span>
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li class="nav-active nav-li">
+                <a href="dashboard.html">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="link_name">Dashboard</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="dashboard.html">Dashboard</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main Section -->
+    <section class="main-section">
+        <div class="main-content">
+            <!-- Navbar -->
+            <div class="upper-navbar py-2 d-flex flex-column flex-sm-row justify-content-between">
+                <div class="d-flex d-flex flex-column flex-sm-row align-items-center py-1">
+                    <i class='bx bx-menu'></i>
+                    <form class="mx-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control dropdown-toggle" placeholder="Search">
+                            <button class="input-group-text btn-primary" type="submit">Search</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="mx-3 py-1 text-center">
+                    <button class="btn btn-primary w-100">Logout</button>
+                </div>
+            </div>
+
+            <!-- Dashboard -->
+            <section class="bg-light dashboard">
+                <div class="container">
+                    <div
+                        class="py-4 d-flex flex-column flex-sm-column flex-md-column flex-lg-row justify-content-between">
+                        <h5>Dashboard</h5>
+
+                        <form class="d-flex">
+                            <div class="input-group">
+                                <input type="date" class="form-control form-control-light">
+                                <span class="input-group-text bg-primary border-primary text-white">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </span>
+                            </div>
+                            <a href="#" class="btn btn-primary ms-1">
+                                <i class="fas fa-sync-alt"></i>
+                            </a>
+                            <a class="btn btn-primary ms-1">
+                                <i class="fas fa-bars"></i>
+                            </a>
+                        </form>
+                    </div>
+
+                    <!-- First Part -->
+                    <div class="row row-cols-1 row-cols-md-2 g-4 pb-4">
+                        <div class="col">
+                            <div class="row row-cols-1 row-cols-md-4 g-4 pb-4">
+                                <!-- Box -->
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="card h-100 shadow">
+                                        <div class="card-body">
+                                            <small class="light-silver-text fw-lighter">Document</small>
+                                            <h5 class="card-text pt-3 pb-2">36,254</h5>
+                                            <div
+                                                class="d-flex flex-sm-row flex-md-column flex-lg-row justify-content-between">
+                                                <small class="green-text"><i class="fas fa-arrow-alt-circle-up"></i>
+                                                    5.27%</small>
+
+                                                <small class="fw-lighter light-silver-text">Since last
+                                                    month</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Box -->
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="card h-100 shadow">
+                                        <div class="card-body">
+                                            <small class="light-silver-text fw-lighter">Document</small>
+                                            <h5 class="card-text pt-3 pb-2">5,543</h5>
+                                            <div
+                                                class="d-flex flex-sm-row flex-md-column flex-lg-row justify-content-between">
+                                                <small class="red-text"><i class="fas fa-arrow-alt-circle-down"></i>
+                                                    1.08%</small>
+
+                                                <small class="fw-lighter light-silver-text">Since last
+                                                    month</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Box -->
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="card h-100 shadow">
+                                        <div class="card-body">
+                                            <small class="light-silver-text fw-lighter">Document</small>
+                                            <h5 class="card-text pt-3 pb-2">$6,254</h5>
+                                            <div
+                                                class="d-flex flex-sm-row flex-md-column flex-lg-row justify-content-between">
+                                                <small class="red-text"><i class="fas fa-arrow-alt-circle-down"></i>
+                                                    7.00%</small>
+
+                                                <small class="fw-lighter light-silver-text">Since last
+                                                    month</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Box -->
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="card h-100 shadow">
+                                        <div class="card-body">
+                                            <small class="light-silver-text fw-lighter">Document</small>
+                                            <h5 class="card-text pt-3 pb-2">+ 30.56%</h5>
+                                            <div
+                                                class="d-flex flex-sm-row flex-md-column flex-lg-row justify-content-between">
+                                                <small class="green-text"><i class="fas fa-arrow-alt-circle-up"></i>
+                                                    4.87%</small>
+
+                                                <small class="fw-lighter light-silver-text">Since last
+                                                    month</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Box -->
+                        <div class="col">
+                            <div class="card h-100 shadow">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <div class="p-5"></div>
+                                    </h5>
+                                    <p class="card-text">
+                                    <div class="p-4"></div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Second Part -->
+                    <div class="row row-cols-1 row-cols-md-2 g-4 pb-4">
+                        <!-- Box -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                            <div class="card h-100 shadow">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <div class="p-5"></div>
+                                    </h5>
+                                    <p class="card-text">
+                                    <div class="p-5"></div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Box -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                            <div class="card h-100 shadow">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <div class="p-5"></div>
+                                    </h5>
+                                    <p class="card-text">
+                                    <div class="p-5"></div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Third Part -->
+                    <div class="row row-cols-1 row-cols-md-3 g-4 pb-4">
+                        <!-- Box -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                            <div class="card h-100 shadow">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <div class="p-5"></div>
+                                    </h5>
+                                    <p class="card-text">
+                                    <div class="p-5"></div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Box -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                            <div class="card h-100 shadow">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <div class="p-5"></div>
+                                    </h5>
+                                    <p class="card-text">
+                                    <div class="p-5"></div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Box -->
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                            <div class="card h-100 shadow">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <div class="p-5"></div>
+                                    </h5>
+                                    <p class="card-text">
+                                    <div class="p-5"></div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="bg-light">
+                <nav class="container navbar navbar-expand-lg navbar-light">
+                    <div
+                        class="py-2 container-fluid top-border d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start">
+                        <div>
+                            <a class="navbar-brand" href="#">2021 © Admin - Dashboard</a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Support</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </footer>
+        </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- External Script -->
+    <script src="scripts/dashboard.js"></script>
+</body>
+
+</html>
