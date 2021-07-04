@@ -18,7 +18,8 @@ a {
 }
 
 .light-silver-text {
-    color: rgb(152, 166, 173);
+    color: rgb(110, 109, 109);
+    font-weight: 600;
 }
 
 .top-border {
@@ -299,10 +300,10 @@ a {
 /* Footer CSS */
 footer .navbar-light .navbar-nav .nav-link {
     font-size: 14px;
-    color: rgb(152, 166, 173);
+    color: rgb(110, 109, 109);
 }
 
 .navbar-light .navbar-brand {
     font-size: 14px;
-    color: rgb(152, 166, 173);
+    color: rgb(110, 109, 109);
 }
