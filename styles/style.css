@@ -1,0 +1,467 @@
+/* Common CSS */
+.btn-primary {
+    background-color: rgb(6, 17, 234);
+}
+
+.blue-text {
+    color: rgb(6, 17, 234) !important;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+.card {
+    border: none;
+}
+
+.extra-padding-left-right {
+    padding: 0 80px;
+}
+
+@media only screen and (max-width: 960px) {
+    .extra-padding-left-right {
+        padding: 0;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+.extra-bold {
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+}
+
+.border-radious {
+    border-radius: 10px;
+}
+
+.silver-text {
+    color: rgb(204, 201, 201);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.extra-margin-left {
+    margin-left: 120px;
+}
+
+@media only screen and (max-width: 992px) {
+    .extra-margin-left {
+        margin-left: 0;
+    }
+}
+
+/* Navbar CSS */
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    padding-right: 60px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-weight: bold;
+}
+
+/* Tool Tip */
+.tooltip-inner {
+    background-color: white;
+    color: black;
+    border: 1px solid #E3E3E3;
+    text-align: left;
+    padding: 20px;
+    max-width: 380px;
+}
+
+.tooltip.bs-tooltip-bottom .tooltip-arrow::before {
+    border-bottom: 10px solid rgb(236, 236, 236);
+}
+
+/* Branding CSS */
+.branding a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.juice-image {
+    width: 95%;
+}
+
+.emoji {
+    width: 80px;
+}
+
+@media only screen and (max-width: 760px) {
+    .branding {
+        text-align: center;
+    }
+}
+
+/* Icons CSS */
+.element-position {
+    position: relative;
+    right: 135px;
+}
+
+@media only screen and (max-width: 992px) {
+    .element-position {
+        position: static;
+    }
+}
+
+/* Branding Strategy CSS */
+.icon {
+    width: 30px;
+}
+
+@media only screen and (max-width: 760px) {
+    .branding-strategy h4 {
+        font-size: 16px;
+    }
+
+    .branding-strategy p small {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .branding-strategy-list h6 {
+        text-align: center;
+    }
+
+    .branding-strategy-list h6 {
+        font-size: 14px;
+    }
+}
+
+
+/* Tursted, Packaging CSS */
+.trusted ul.li-icon, .packaging ul.li-icon {
+    list-style-image: url('/images/li-icon.png');
+    margin: 0;
+    padding: 0 0;
+}
+
+.trusted ul li, .packaging ul li {
+    padding: 10px 0;
+}
+
+.packaging {
+    background-image: url("/images/side-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+@media only screen and (max-width: 992px) {
+    .trusted, .packaging {
+        text-align: center;
+    } 
+
+    .packaging ul li {
+        list-style: none;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .packaging {
+        background-image: none;
+    }
+}
+
+/* Who Are We CSS */
+.who-are-we ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.who-are-we ul li{
+    padding: 10px 0;
+}
+
+.who-are-we-icon {
+    width: 42.66px;
+    height: 38.98px;
+}
+
+@media only screen and (max-width: 992px) {
+    .who-are-we {
+        text-align: center;
+    }
+
+    .who-are-we .card-title {
+        font-size: 16px;
+    }
+
+    .who-are-we img, li {
+        font-size: 14px;
+    }
+}
+
+/* Plan CSS */
+.plan {
+    background-image: url("/images/side-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+
+.one-two-three-icon {
+    height: 88.01px;
+    width: 88.01px;
+    margin: auto;
+    position: relative;
+    top: 40px
+}
+
+#read-more-one, #read-more-two, #read-more-three {
+    text-decoration: none;
+}
+
+#extra-text-one, #extra-text-two, #extra-text-three {
+    display: none;
+}
+
+@media only screen and (max-width: 760px) {
+   .plan h4{
+       font-size: 16px;
+   }
+
+   .plan p{
+    font-size: 12px;
+    }
+
+    .plan {
+        background-image: none;
+    }    
+}
+
+/* Customers CSS */
+.comma-icon {
+    width: 54.99px;
+    height: 37.16px;
+}
+
+.top-border {
+    border-top: 2px solid #cacaca;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 10px;
+}
+
+.card-position {
+    position: relative;
+    bottom: 100px;
+}
+
+.customers-title {
+    position: relative;
+    bottom: 90px;
+    margin-top: 80px;
+}
+
+.customers {
+    background-image: url("/images/wave.png");
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 992px) {
+    .card-position {
+        position: static;
+    }
+    
+}
+
+/* Noticed CSS */
+.noticed .form-control {
+    border: none;
+    border-bottom: 2px solid #a3a3a3;
+}
+
+.noticed {
+    background-image: url("/images/noticed-bg.png");
+    background-repeat: no-repeat;
+}
+
+/* Footer CSS */
+.small-text-footer {
+    font-size: 12px;
+}
+
+footer .table {
+    margin: 0;
+}
+
+footer .table tr {
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+
+footer .table td {
+    padding: 5px 0;
+}
+
+.right-border {
+    border-right: 2px solid lightgray;
+}
+
+@media only screen and (max-width: 992px) {
+    footer {
+        text-align: center;
+    }
+
+    .right-border {
+        border: none;
+    }
+
+    .footer-address {
+        margin-top: 10px;
+    }
+}
+
+/* Start Project Page CSS */
+.form-box {
+    position: relative;
+}
+
+.start-project .form-control {
+    border: none;
+    border-bottom: 2px solid #a3a3a3;
+}
+
+.project-form {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .rectangle-img {
+        display: none;
+    }
+
+    .form-box {
+        position: static;
+    }
+
+    .project-form {
+        position: static;
+    }
+}
+
+.step-one {
+    display: block;
+}
+
+.step-two {
+    display: none;
+}
+
+.step-three {
+    display: none;
+}
+
+.step-four {
+    display: none;
+}
+
+.small-text-form-two {
+    font-size: 14px;
+}
+
+.blue-button-border {
+    border: 2px solid rgb(6, 17, 234) !important;
+    border-radius: 5px;
+}
+
+.form-link {
+    text-decoration: underline;
+}
+
+/* Successful Brands CSS */
+.successful-brands .custom-icon {
+    font-size: 14px;
+}
+
+.successful-brands .custom-icon img {
+    width: 15px;
+}
+
+@media only screen and (max-width: 760px) {
+    .successful-brands h4 {
+        font-size: 18px;
+    }
+
+    .successful-brands-list {
+        text-align: center;
+    }
+}
+
+/* Waste Time */
+.waste-time-border {
+    border-bottom: 1px solid #a3a3a3;
+    margin: 0 85px;
+}
+
+
+@media only screen and (max-width: 760px) {
+    .waste-time h4 {
+        font-size: 16px;
+    }
+
+    .waste-time small {
+        font-size: 13px;
+    }
+
+    .waste-time-list {
+        text-align: center;
+    }
+}
+
+/* Good Product CSS */
+@media only screen and (max-width: 760px) {
+    .good-product h4 {
+        font-size: 16px;
+    }
+}
+
+/* Location CSS */
+.location-one .circle, .location-two .circle, .location-three .circle, .location-four .circle {
+    border-radius: 50%;
+    padding: 7px 11px;
+    border: 1px solid rgb(6, 17, 234);
+}
+
+.location-one {
+    display: block;
+}
+
+.location-two {
+    display: none;
+}
+
+.location-three {
+    display: none;
+}
+
+.location-four {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .location-one, .location-two, .location-three, .location-four {
+        margin-left: 25px;
+    }
+}
