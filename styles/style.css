@@ -363,16 +363,39 @@ a {
     margin-top: 80px;
 }
 
-.customers {
-    background-image: url("/images/wave.png");
-    background-repeat: no-repeat;
-}
-
 @media only screen and (max-width: 992px) {
     .card-position {
         position: static;
     }
     
+}
+
+.customers-wave {
+    position: relative;
+}
+
+.customers-wave-1 {
+    position: relative;
+    bottom: 70px;
+    left: -100px;
+}
+
+.customers-wave-2 {
+    position: relative;
+    bottom: 100px;
+    left: 100%;
+}
+
+.customers-wave-3 {
+    position: relative;
+    left: 60%;
+    top: 150px
+}
+
+/* Brands Logo Section */
+.brands-logo .brand-logo {
+    margin: 0 35px;
+    cursor: pointer;
 }
 
 /* Noticed CSS */
