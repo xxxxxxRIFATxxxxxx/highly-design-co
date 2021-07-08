@@ -1,35 +1,27 @@
-// Common Function For Read More
-const readMore = (id) => {
-    const extraText = document.getElementById(id);
-    if (extraText.style.display === "none") {
-        extraText.style.display = "block";
-    } else {
-        extraText.style.display = "none";
-    };
-};
-
-// For Read More One
-document.getElementById("read-more-one").addEventListener("click", () => {
-    readMore("extra-text-one");
+// For Change Image in Trusted Section
+document.querySelector(".trusted").addEventListener("mouseover", () => {
+    document.querySelector(".trusted-image").src = "images/trusted-blue.svg";
+    document.querySelector(".trusted-text-1").style.color = "blue";
+    document.querySelector(".trusted-text-2").style.color = "blue";
 });
 
-// For Read More Two
-document.getElementById("read-more-two").addEventListener("click", () => {
-    readMore("extra-text-two");
+document.querySelector(".trusted").addEventListener("mouseout", () => {
+    document.querySelector(".trusted-image").src = "images/trusted-silver.svg";
+    document.querySelector(".trusted-text-1").style.color = "black";
+    document.querySelector(".trusted-text-2").style.color = "black";
 });
 
-// For Read More Three
-document.getElementById("read-more-three").addEventListener("click", () => {
-    readMore("extra-text-three");
+
+// For Change Image in Design Section
+document.querySelector(".packaging").addEventListener("mouseover", () => {
+    document.querySelector(".design-image").src = "images/design-blue.svg";
+    document.querySelector(".design-text-1").style.color = "blue";
+    document.querySelector(".design-text-2").style.color = "blue";
 });
 
-// For Tooltip
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl)
-})
-
-// For Redirect Start Project Page
-document.getElementById("start-project-btn").addEventListener("click", () => {
-    window.location.replace("start-project.html");
+document.querySelector(".packaging").addEventListener("mouseout", () => {
+    document.querySelector(".design-image").src = "images/design-black.svg";
+    document.querySelector(".design-text-1").style.color = "black";
+    document.querySelector(".design-text-2").style.color = "black";
 });
+

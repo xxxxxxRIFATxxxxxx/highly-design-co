@@ -51,3 +51,15 @@ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggl
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
 })
+
+
+// For Edit Button
+const allEditBtn = document.querySelectorAll(".edit-btn");
+
+for (i = 0; i < allEditBtn.length; i++) {
+    allEditBtn[i].addEventListener("click", (event) => {
+        event.preventDefault();
+        event.target.previousSibling.previousSibling.disabled = false;
+        event.target.previousSibling.previousSibling.autofocus;
+    });
+}

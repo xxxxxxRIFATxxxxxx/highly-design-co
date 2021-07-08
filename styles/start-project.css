@@ -195,3 +195,19 @@
 }
 
 
+/* For Final Step Edit Button */
+.buttonIn {
+    position: relative;
+}
+
+.edit-btn {
+    position: absolute;
+    border: none;
+    background: none;
+    bottom: 0;
+    left: 90%
+}
+
+.edit-btn:hover {
+    color: rgb(74, 198, 207) !important;
+}
