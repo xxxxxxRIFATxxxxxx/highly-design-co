@@ -91,3 +91,7 @@ changeBrandImage(brand9, silverImagebrand9, blackImagebrand9);
 changeBrandImage(brand10, silverImagebrand10, blackImagebrand10);
 changeBrandImage(brand11, silverImagebrand11, blackImagebrand11);
 
+// For Redirect Start Project Page
+document.getElementById("start-project-btn").addEventListener("click", () => {
+    window.location.href = "../start-project.html";
+});

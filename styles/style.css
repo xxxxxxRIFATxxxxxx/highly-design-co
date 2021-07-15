@@ -196,6 +196,10 @@ a {
     .branding-strategy p small {
         font-size: 13px;
     }
+
+    .look-and-better {
+        margin-right: 16px;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -394,14 +398,23 @@ a {
 
 /* Brands Logo Slider */
 .gallery  {
-    padding-top: 45px;
+    padding-top: 22px;
     height: 150px;
 }
 
 .gallery-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30%;
-    height: 30%;
+    height: 100%;
     text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .gallery-cell {
+        width: 100%;
+    }
 }
 
 /* Brands Logo Section */
