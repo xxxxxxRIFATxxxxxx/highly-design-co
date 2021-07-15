@@ -392,6 +392,18 @@ a {
     top: 150px
 }
 
+/* Brands Logo Slider */
+.gallery  {
+    padding-top: 45px;
+    height: 150px;
+}
+
+.gallery-cell {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+}
+
 /* Brands Logo Section */
 .brands-logo .brand-logo {
     margin: 0 35px;
