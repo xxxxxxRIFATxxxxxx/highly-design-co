@@ -26,6 +26,23 @@ document.getElementById("handle-form-3").addEventListener("click", () => {
     handleForm(".step-three", ".step-four", ".location-three", ".location-four");
 });
 
+// For Edit Button
+
+// Email Edit
+document.getElementById("email-edit").addEventListener("click", () => {
+    handleForm(".step-four", ".step-one", ".location-four", ".location-one");
+});
+
+// Project About Edit
+document.getElementById("project-about-edit").addEventListener("click", () => {
+    handleForm(".step-four", ".step-two", ".location-four", ".location-two");
+});
+
+// Project Time Edit
+document.getElementById("project-time-edit").addEventListener("click", () => {
+    handleForm(".step-four", ".step-three", ".location-four", ".location-three");
+});
+
 // Common Function For Blue Button Border Active
 const handleBlueButtonBorder = (allButtons) => {
     for (var i = 0; i < allButtons.length; i++) {

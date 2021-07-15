@@ -67,6 +67,18 @@
 }
 
 /* Successful Brands CSS */
+.custom-icon-2 {
+    margin-right: 40px;
+}
+
+.custom-icon-3 {
+    margin-right: 60px;
+}
+
+.custom-icon-5 {
+    margin-right: 10px;
+}
+
 .successful-brands .custom-icon {
     font-size: 14px;
 }
@@ -85,7 +97,25 @@
     }
 }
 
+@media only screen and (max-width: 991px) {
+    .custom-icon-4 {
+        margin-right: 17px;
+    }
+
+    .custom-icon-5 {
+        margin-right: 30px;
+    }
+
+    .custom-icon-6 {
+        margin-right: 17px;
+    }
+}
+
 /* Waste Time */
+.waste-time-3 {
+    margin-right: 10px;
+}
+
 .waste-time-border {
     border-bottom: 1px solid #a3a3a3;
     margin: 0 85px;
