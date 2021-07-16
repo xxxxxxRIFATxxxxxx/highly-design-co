@@ -57,7 +57,7 @@
 
                         <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="bottom"
                             title="We're using artificial intelligence to rethink how we should redesign our inner pages to give you an experience that doesn't waste your time and you know exactly what to get.">
-                            <a class="nav-link fw-bold blue-text" href="start-project.html">Design</a>
+                            <a class="nav-link" href="start-project.html">Design</a>
                         </li>
 
                         <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -189,27 +189,36 @@
                             </p>
                         </div>
 
-                        <div class="row mt-2">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
-                                <input type="text" class="form-control" placeholder="Full Name">
-                            </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
-                                <input type="text" class="form-control" placeholder="Business Name">
-                            </div>
+                        <!-- Alert -->
+                        <div class="alert alert-danger p-0 w-50 text-center small-text" id="form-1-alert" role="alert">
+                            Please fill all the field!
                         </div>
 
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
-                                <input type="email" class="form-control" placeholder="Email">
+                        <form>
+                            <div class="row mt-2">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
+                                    <input required type="text" class="form-control" placeholder="Full Name" id="name">
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
+                                    <input required type="text" class="form-control" placeholder="Business Name"
+                                        id="business-name">
+                                </div>
                             </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
-                                <input type="text" class="form-control" placeholder="Website URL">
-                            </div>
-                        </div>
 
-                        <div class="mt-4 text-center">
-                            <button class="btn btn-primary px-4" id="handle-form-1">Next ></button>
-                        </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
+                                    <input required type="email" class="form-control" placeholder="Email" id="email">
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
+                                    <input required type="text" class="form-control" placeholder="Website URL"
+                                        id="website-url">
+                                </div>
+                            </div>
+
+                            <div class="mt-4 text-center">
+                                <button type="submit" class="btn btn-primary px-4" id="handle-form-1">Next ></button>
+                            </div>
+                        </form>
                     </div>
 
                     <!-- Step Two -->
@@ -225,14 +234,13 @@
                             </p>
                         </div>
 
-                        <div class="normal-button-div">
+                        <div class="normal-button-div-step-2">
                             <div>
                                 <button type="button" class="step-two-button btn btn-light btn-sm bg-white border">
                                     <small class="small-text-form-two">Market & Consumer Research</small>
                                 </button>
 
-                                <button type="button"
-                                    class="step-two-button btn btn-light btn-sm bg-white border blue-button-border">
+                                <button type="button" class="step-two-button btn btn-light btn-sm bg-white border">
                                     <small class="small-text-form-two">Brand Identity</small>
                                 </button>
 
@@ -268,92 +276,11 @@
                                     <small class="small-text-form-two">I’m Not Sure</small>
                                 </button>
                             </div>
-
-                            <div class="text-center mt-3">
-                                <button href="#" class="btn btn-primary px-4" id="handle-form-2">Next ></button>
-                            </div>
                         </div>
 
-                        <!-- <div class="normal-button-div">
-                            <div class="row row-cols-1 row-cols-md-4 g-2">
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-                                    <div class="card h-100">
-                                        <button type="button" class="btn btn-light btn-sm bg-white border">
-                                            <small class="small-text-form-two">Market & Consumer Research</small>
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-                                    <div class="card h-100">
-                                        <button type="button"
-                                            class="btn btn-light btn-sm bg-white border blue-button-border">
-                                            <small class="small-text-form-two">Brand Identity</small>
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-                                    <div class="card h-100">
-                                        <button type="button" class="btn btn-light btn-sm bg-white border">
-                                            <small class="small-text-form-two">Website Design & Development</small>
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-                                    <div class="card h-100">
-                                        <button type="button" class="btn btn-light btn-sm bg-white border">
-                                            <small class="small-text-form-two">Logo Identity</small>
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-                                    <div class="card h-100">
-                                        <button type="button" class="btn btn-light btn-sm bg-white border">
-                                            <small class="small-text-form-two">Branding Strategy</small>
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-                                    <div class="card h-100">
-                                        <button type="button" class="btn btn-light btn-sm bg-white border">
-                                            <small class="small-text-form-two">Visual Identity</small>
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-                                    <div class="card h-100">
-                                        <button type="button" class="btn btn-light btn-sm bg-white border">
-                                            <small class="small-text-form-two">Packaging Design & Printing</small>
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-                                    <div class="card h-100">
-                                        <button type="button" class="btn btn-light btn-sm bg-white border">
-                                            <small class="small-text-form-two">Structural Box Design</small>
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
-                                    <div class="card h-100">
-                                        <button type="button" class="btn btn-light btn-sm bg-white border">
-                                            <small class="small-text-form-two">I’m Not Sure</small>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="text-center mt-2">
+                        <div class="text-center mt-3">
                             <button href="#" class="btn btn-primary px-4" id="handle-form-2">Next ></button>
-                        </div> -->
+                        </div>
                     </div>
 
                     <!-- Step Three -->
@@ -404,7 +331,7 @@
                             </div>
                         </div>
 
-                        <div class="text-center mt-5">
+                        <div class="text-center mt-5 pt-4">
                             <button href="#" class="btn btn-primary px-4" id="handle-form-3">Next ></button>
                         </div>
                     </div>
@@ -436,32 +363,31 @@
                             <div class="col-12 col-sm-12 col-md-12 col-lg-7">
                                 <form>
                                     <div class="mb-3 buttonIn">
-                                        <input type="email" class="form-control bg-white" value="johndoe@gmail.com"
-                                            disabled>
+                                        <input type="email" class="form-control bg-white" disabled id="final-email">
                                         <button class="edit-btn blue-text" id="email-edit">Edit</button>
                                     </div>
                                     <div class="mb-3 buttonIn">
-                                        <input type="text" class="form-control bg-white"
-                                            value="Brand Strategy & Positioning" disabled>
+                                        <input type="text" class="form-control bg-white" disabled id="type-of-project">
                                         <button class="edit-btn blue-text" id="project-about-edit">Edit</button>
                                     </div>
 
                                     <div class="mb-3 buttonIn">
-                                        <input type="text" class="form-control bg-white" value="In a few months"
-                                            disabled>
+                                        <input type="text" class="form-control bg-white" disabled id="when-get-started">
                                         <button class="edit-btn blue-text" id="project-time-edit">Edit</button>
                                     </div>
 
                                     <div class="mb-3 buttonIn">
                                         <input type="text" class="form-control bg-white" value="Want to add a message?"
-                                            disabled>
+                                            disabled id="add-message">
                                         <button class="edit-btn blue-text">Edit</button>
                                     </div>
 
                                     <div class="form-text my-4">
                                         <small class="">
                                             This site is protected by reCAPTCHA and the Google <br>
-                                            <a href="#" class="form-link text-muted">Privacy Policy</a> and <a href="#"
+                                            <a target="_blank" href="https://policies.google.com/privacy"
+                                                class="form-link text-muted">Privacy Policy</a> and <a target="_blank"
+                                                href="https://policies.google.com/terms"
                                                 class="form-link text-muted">Terms of
                                                 Service</a>
                                         </small>
@@ -470,7 +396,7 @@
                             </div>
 
                             <div class="text-center mb-5 col-12">
-                                <button href="#" class="btn btn-primary px-5" id="handle-form-4">Send</button>
+                                <button class="btn btn-primary px-5" id="handle-form-4">Send</button>
                             </div>
                         </div>
                     </div>

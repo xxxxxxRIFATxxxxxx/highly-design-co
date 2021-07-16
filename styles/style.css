@@ -356,6 +356,12 @@ a {
     height: 37.16px;
 }
 
+#customer-1-upper-paragraph, 
+#customer-2-upper-paragraph, 
+#customer-3-upper-paragraph {
+    display: block;
+}
+
 .card-position {
     position: relative;
     bottom: 100px;
@@ -406,9 +412,17 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
+    width: 20%;
     height: 100%;
     text-align: center;
+}
+
+.flickity-page-dots .dot {
+    display: none;
+}
+
+.flickity-prev-next-button {
+    display: none;
 }
 
 @media only screen and (max-width: 992px) {

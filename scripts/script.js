@@ -95,3 +95,54 @@ changeBrandImage(brand11, silverImagebrand11, blackImagebrand11);
 document.getElementById("start-project-btn").addEventListener("click", () => {
     window.location.href = "../start-project.html";
 });
+
+// For Customer Readmore
+const forCustomer1 = document.getElementById("for-customer-1");
+const forCustomer2 = document.getElementById("for-customer-2");
+const forCustomer3 = document.getElementById("for-customer-3");
+
+const customer1UpperParagraph = document.getElementById("customer-1-upper-paragraph");
+const customer2UpperParagraph = document.getElementById("customer-2-upper-paragraph");
+const customer3UpperParagraph = document.getElementById("customer-3-upper-paragraph");
+
+document.getElementById("customer-readmore-1-btn").addEventListener("click", () => {
+    forCustomer2.className = "collapse";
+    forCustomer3.className = "collapse";
+
+    customer2UpperParagraph.style.display = "block";
+    customer3UpperParagraph.style.display = "block"
+
+    if (customer1UpperParagraph.style.display === "none") {
+        customer1UpperParagraph.style.display = "block";
+    } else {
+        customer1UpperParagraph.style.display = "none";
+    };
+});
+
+document.getElementById("customer-readmore-2-btn").addEventListener("click", () => {
+    forCustomer1.className = "collapse";
+    forCustomer3.className = "collapse";
+
+    customer1UpperParagraph.style.display = "block";
+    customer3UpperParagraph.style.display = "block"
+
+    if (customer2UpperParagraph.style.display === "none") {
+        customer2UpperParagraph.style.display = "block";
+    } else {
+        customer2UpperParagraph.style.display = "none";
+    };
+});
+
+document.getElementById("customer-readmore-3-btn").addEventListener("click", () => {
+    forCustomer1.className = "collapse";
+    forCustomer2.className = "collapse";
+
+    customer1UpperParagraph.style.display = "block";
+    customer2UpperParagraph.style.display = "block"
+
+    if (customer3UpperParagraph.style.display === "none") {
+        customer3UpperParagraph.style.display = "block";
+    } else {
+        customer3UpperParagraph.style.display = "none";
+    };
+});

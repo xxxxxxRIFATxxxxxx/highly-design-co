@@ -432,7 +432,7 @@
                                 <img src="images/comma.svg" class="card-img-top comma-icon" alt="comma">
                             </div>
                             <div class="card-body px-4">
-                                <p>
+                                <p id="customer-1-upper-paragraph">
                                     I can see the difference in my
                                     customers eyes when they see the
                                     product wearing its new designs.
@@ -456,7 +456,8 @@
                                     <p>
                                     <div class="text-center">
                                         <a class="text-dark" data-bs-toggle="collapse" href="#for-customer-1"
-                                            role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            role="button" aria-expanded="false" aria-controls="collapseExample"
+                                            id="customer-readmore-1-btn">
                                             <small>Read more…</small>
                                         </a>
                                     </div>
@@ -481,7 +482,7 @@
                                 <img src="images/comma.svg" class="card-img-top comma-icon" alt="comma">
                             </div>
                             <div class="card-body px-4">
-                                <p>
+                                <p id="customer-2-upper-paragraph">
                                     Their work is amazing and I would
                                     recommend anyone to them for any
                                     design, branding, packaging needs!
@@ -503,7 +504,8 @@
                                     <p>
                                     <div class="text-center">
                                         <a class="text-dark" data-bs-toggle="collapse" href="#for-customer-2"
-                                            role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            role="button" aria-expanded="false" aria-controls="collapseExample"
+                                            id="customer-readmore-2-btn">
                                             <small>Read more…</small>
                                         </a>
                                     </div>
@@ -528,7 +530,7 @@
                                 <img src="images/comma.svg" class="card-img-top comma-icon" alt="comma">
                             </div>
                             <div class="card-body px-4">
-                                <p>
+                                <p id="customer-3-upper-paragraph">
                                     We feel extremely cared about
                                     and trust his advice… because we
                                     know it comes from all the right
@@ -550,7 +552,8 @@
                                     <p>
                                     <div class="text-center">
                                         <a class="text-dark" data-bs-toggle="collapse" href="#for-customer-3"
-                                            role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            role="button" aria-expanded="false" aria-controls="collapseExample"
+                                            id="customer-readmore-3-btn">
                                             <small>Read more…</small>
                                         </a>
                                     </div>
@@ -573,8 +576,8 @@
         </section>
 
         <!-- Brands Logo Slider -->
-        <section class="container extra-padding-left-right pt-5 mt-5 mx-auto brands-logo">
-            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+        <section class="container pt-5 mt-5 mx-auto brands-logo">
+            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true, "autoPlay": true}'>
                 <div class="gallery-cell">
                     <img class="img-fluid brand-logo" id="brand-1" src="images/brands-logo/vance.svg" alt="brand-logo">
                 </div>
@@ -622,26 +625,6 @@
             </div>
         </section>
 
-        <!-- Brands Logo Section
-        <section class="container extra-padding-left-right pt-5 mt-5 mx-auto brands-logo">
-            <div class="d-flex align-items-center justify-content-center mb-5">
-                <img class="img-fluid brand-logo" id="brand-1" src="images/brands-logo/vance.svg" alt="brand-logo">
-                <img class="img-fluid brand-logo" id="brand-2" src="images/brands-logo/devi.svg" alt="brand-logo">
-                <img class="img-fluid brand-logo" id="brand-3" src="images/brands-logo/liv.svg" alt="brand-logo">
-                <img class="img-fluid brand-logo" id="brand-4" src="images/brands-logo/otb.svg" alt="brand-logo">
-                <img class="img-fluid brand-logo" id="brand-5" src="images/brands-logo/solis.svg" alt="brand-logo">
-                <img class="img-fluid brand-logo" id="brand-6" src="images/brands-logo/viola.svg" alt="brand-logo">
-            </div>
-
-            <div class="d-flex align-items-center justify-content-center">
-                <img class="img-fluid brand-logo" id="brand-7" src="images/brands-logo/boxes.svg" alt="brand-logo">
-                <img class="img-fluid brand-logo" id="brand-8" src="images/brands-logo/blomed.svg" alt="brand-logo">
-                <img class="img-fluid brand-logo" id="brand-9" src="images/brands-logo/ambient.svg" alt="brand-logo">
-                <img class="img-fluid brand-logo" id="brand-10" src="images/brands-logo/cluck.svg" alt="brand-logo">
-                <img class="img-fluid brand-logo" id="brand-11" src="images/brands-logo/ho.svg" alt="brand-logo">
-            </div>
-        </section> -->
-
         <!-- Plan -->
         <section class="plan pb-5 mb-5">
             <div class="container pt-5 mt-5">
@@ -687,9 +670,10 @@
                                         </p>
                                         <div class="collapse" id="foricon-1">
                                             <div class="card card-body read-more-text">
-                                                Some placeholder content for the collapse component. This panel is
-                                                hidden by
-                                                default but revealed when the user activates the relevant trigger.
+                                                Our creative director will reach out to speak with you about your
+                                                project and learn about you and your goals. If we're a good fit, we'll
+                                                send you a Creative Brief, Project Schedule, and a Project Proposal. If
+                                                approved we'll send you an MSA Agreement.
                                             </div>
                                         </div>
                                     </div>
@@ -716,9 +700,11 @@
                                         </p>
                                         <div class="collapse" id="foricon-2">
                                             <div class="card card-body read-more-text">
-                                                Some placeholder content for the collapse component. This panel is
-                                                hidden by
-                                                default but revealed when the user activates the relevant trigger.
+                                                We'll gather supporting market and consumer info, match it with the
+                                                Creative Brief then design your website or packaging product based on
+                                                what we've discovered.
+                                                We'll also test and prototype your product before production, so you
+                                                feel confident it will work.
                                             </div>
                                         </div>
                                     </div>
@@ -746,9 +732,10 @@
                                         </p>
                                         <div class="collapse" id="foricon-3">
                                             <div class="card card-body read-more-text">
-                                                Some placeholder content for the collapse component. This panel is
-                                                hidden by
-                                                default but revealed when the user activates the relevant trigger.
+                                                After successfully testing and prototyping your product, we'll closely
+                                                work with you to determine the best development method, or production
+                                                and shipping method so you hit your deadline and start selling with
+                                                confidence.
                                             </div>
                                         </div>
                                     </div>
