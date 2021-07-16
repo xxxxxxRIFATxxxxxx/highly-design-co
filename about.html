@@ -23,6 +23,12 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/about.css">
+
+    <style>
+        #nav-box-hover {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -73,6 +79,250 @@
             </div>
         </nav>
     </header>
+
+    <!-- Nav Hover -->
+    <div id="nav-box-hover">
+        <section class="container start-project">
+            <div class="extra-padding-left-right pt-5">
+                <div class="form-box">
+                    <img src="images/rectangle-box.png" class="img-fluid rectangle-img" alt="box">
+
+                    <!-- Step One -->
+                    <div class="project-form step-one">
+                        <div class="pb-1">
+                            <small class="small-text blue-text">
+                                <i>Begin the project by filling this out. This
+                                    will take
+                                    less than 1 minute.</i>
+                            </small>
+                        </div>
+
+                        <div class="pb-3">
+                            <h4 class="extra-bold pb-1">Work with a specialist and be sure <br>
+                                your product or website will convert.</h4>
+
+                            <p>
+                                Fill out a few details so we can get connected and jumpstart this project. If you have a
+                                creative brief or notes <br>
+                                ready, you can email us at <a href="#" class="blue-text">hello@highlydesignco.com.</a>
+                            </p>
+                        </div>
+
+                        <!-- Alert -->
+                        <div class="alert alert-danger p-0 w-50 text-center small-text" id="form-1-alert" role="alert">
+                            Please fill all the field!
+                        </div>
+
+                        <form>
+                            <div class="row mt-2">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
+                                    <input required type="text" class="form-control" placeholder="Full Name" id="name">
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
+                                    <input required type="text" class="form-control" placeholder="Business Name"
+                                        id="business-name">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
+                                    <input required type="email" class="form-control" placeholder="Email" id="email">
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2">
+                                    <input required type="text" class="form-control" placeholder="Website URL"
+                                        id="website-url">
+                                </div>
+                            </div>
+
+                            <div class="mt-4 text-center">
+                                <button type="submit" class="btn btn-primary px-4" id="handle-form-1">Next ></button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Step Two -->
+                    <div class="project-form step-two">
+                        <div>
+                            <h4 class="extra-bold pb-1">What type of project are <br>
+                                you enquiring about?</h4>
+
+                            <p>
+                                We’ll solve your business’s complex problems and accelerate your sales while minimizing
+                                risks. <br>
+                                Click any services that apply
+                            </p>
+                        </div>
+
+                        <div class="normal-button-div-step-2">
+                            <div>
+                                <button type="button" class="step-two-button btn btn-light btn-sm bg-white border">
+                                    <small class="small-text-form-two">Market & Consumer Research</small>
+                                </button>
+
+                                <button type="button" class="step-two-button btn btn-light btn-sm bg-white border">
+                                    <small class="small-text-form-two">Brand Identity</small>
+                                </button>
+
+                                <button type="button" class="step-two-button btn btn-light btn-sm bg-white border">
+                                    <small class="small-text-form-two">Website Design & Development</small>
+                                </button>
+
+                                <button type="button" class="step-two-button btn btn-light btn-sm bg-white border">
+                                    <small class="small-text-form-two">Logo Identity</small>
+                                </button>
+                            </div>
+
+                            <div>
+                                <button type="button" class="step-two-button btn btn btn-light btn-sm bg-white border">
+                                    <small class="small-text-form-two">Branding Strategy</small>
+                                </button>
+
+                                <button type="button" class="step-two-button btn btn btn-light btn-sm bg-white border">
+                                    <small class="small-text-form-two">Visual Identity</small>
+                                </button>
+
+                                <button type="button" class="step-two-button btn btn btn-light btn-sm bg-white border">
+                                    <small class="small-text-form-two">Packaging Design & Printing</small>
+                                </button>
+
+                                <button type="button" class="step-two-button btn btn btn-light btn-sm bg-white border">
+                                    <small class="small-text-form-two">Structural Box Design</small>
+                                </button>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="button" class="step-two-button btn btn btn-light btn-sm bg-white border">
+                                    <small class="small-text-form-two">I’m Not Sure</small>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-3">
+                            <button href="#" class="btn btn-primary px-4" id="handle-form-2">Next ></button>
+                        </div>
+                    </div>
+
+                    <!-- Step Three -->
+                    <div class="project-form step-three">
+                        <div>
+                            <h4 class="extra-bold pb-1">When do you need to <br>
+                                get started?</h4>
+
+                            <p>
+                                We want to think about the timeline of your project before we chat. <br>
+                                And, no worries, we won’t hold you to this.
+                            </p>
+                        </div>
+
+                        <div class="normal-button-div-step-3 extra-margin-left">
+                            <div class="row row-cols-1 row-cols-md-4 g-4">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="card h-100">
+                                        <button type="button" class="btn btn-light btn-sm bg-white border px-4">
+                                            <small class="small-text-form-two">Now. Immediately</small>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="card h-100">
+                                        <button type="button" class="btn btn-light btn-sm bg-white border px-4">
+                                            <small class="small-text-form-two">In a few days</small>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="card h-100">
+                                        <button type="button" class="btn btn-light btn-sm bg-white border px-4">
+                                            <small class="small-text-form-two">In a few weeks </small>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                    <div class="card h-100">
+                                        <button type="button" class="btn btn-light btn-sm bg-white border px-4">
+                                            <small class="small-text-form-two">In a few months</small>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-5 pt-4">
+                            <button href="#" class="btn btn-primary px-4" id="handle-form-3">Next ></button>
+                        </div>
+                    </div>
+
+                    <!-- Final Step -->
+                    <div class="project-form step-four">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-5">
+                                <h4 class="extra-bold pb-1">Confirm your <br>
+                                    project’s information.</h4>
+
+                                <p class="py-2">
+                                    Thank you for taking the time to fill <br>
+                                    this out!
+                                </p>
+
+                                <p class="pb-2">
+                                    We’re now connected and you’re one <br>
+                                    step away from dramatically <br>
+                                    increasing your value. <br>
+                                </p>
+
+                                <p>
+                                    We’ll take a closer look and get back <br>
+                                    to you shortly
+                                </p>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                                <form>
+                                    <div class="mb-3 buttonIn">
+                                        <input type="email" class="form-control bg-white" disabled id="final-email">
+                                        <button class="edit-btn blue-text" id="email-edit">Edit</button>
+                                    </div>
+                                    <div class="mb-3 buttonIn">
+                                        <input type="text" class="form-control bg-white" disabled id="type-of-project">
+                                        <button class="edit-btn blue-text" id="project-about-edit">Edit</button>
+                                    </div>
+
+                                    <div class="mb-3 buttonIn">
+                                        <input type="text" class="form-control bg-white" disabled id="when-get-started">
+                                        <button class="edit-btn blue-text" id="project-time-edit">Edit</button>
+                                    </div>
+
+                                    <div class="mb-3 buttonIn">
+                                        <input type="text" class="form-control bg-white" value="Want to add a message?"
+                                            disabled id="add-message">
+                                        <button class="edit-btn blue-text">Edit</button>
+                                    </div>
+
+                                    <div class="form-text my-4">
+                                        <small class="">
+                                            This site is protected by reCAPTCHA and the Google <br>
+                                            <a target="_blank" href="https://policies.google.com/privacy"
+                                                class="form-link text-muted">Privacy Policy</a> and <a target="_blank"
+                                                href="https://policies.google.com/terms"
+                                                class="form-link text-muted">Terms of
+                                                Service</a>
+                                        </small>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="text-center mb-5 col-12">
+                                <button class="btn btn-primary px-5" id="handle-form-4">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <!-- Main -->
     <main>
@@ -296,7 +546,7 @@
 
     <!-- Footer -->
     <footer class="container pt-5 pb-3 mt-5">
-        <section class="extra-padding-left-right">
+        <!-- <section class="extra-padding-left-right">
             <section>
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-4 pb-4 d-flex justify-content-center">
@@ -366,6 +616,40 @@
                     </div>
                 </div>
             </section>
+        </section> -->
+        <section class="pb-5">
+            <nav class="navbar navbar-expand-lg navbar-light container">
+                <div class="container-fluid d-flex flex-column flex-sm-column flex-md-row">
+                    <div class="mx-auto text-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-5 ps-5 mb-2 mb-lg-0">
+                            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                title="We're using artificial intelligence to rethink how we should redesign our inner pages to give you an experience that doesn't waste your time and you know exactly what to get.">
+                                <a class="nav-link" href="#">Strategy</a>
+                            </li>
+
+                            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                title="We're using artificial intelligence to rethink how we should redesign our inner pages to give you an experience that doesn't waste your time and you know exactly what to get.">
+                                <a class="nav-link" href="start-project.html">Design</a>
+                            </li>
+
+                            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                title="We're using artificial intelligence to rethink how we should redesign our inner pages to give you an experience that doesn't waste your time and you know exactly what to get.">
+                                <a class="nav-link" href="#">Work</a>
+                            </li>
+
+                            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                title="We're using artificial intelligence to rethink how we should redesign our inner pages to give you an experience that doesn't waste your time and you know exactly what to get.">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+
+                            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                title="We're using artificial intelligence to rethink how we should redesign our inner pages to give you an experience that doesn't waste your time and you know exactly what to get.">
+                                <a class="nav-link" href="#">Company</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </section>
 
         <section class="pt-5 mt-5 extra-padding-left-right">
@@ -456,6 +740,7 @@
         crossorigin="anonymous"></script>
 
     <!-- External Script -->
+    <script src="scripts/start-project-script.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 
