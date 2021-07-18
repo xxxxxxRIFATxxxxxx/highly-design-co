@@ -449,6 +449,14 @@ a {
 }
 
 /* Footer CSS */
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: black;
+}
+
 .footer-logo {
     width: 70px;
     height: 70px;
