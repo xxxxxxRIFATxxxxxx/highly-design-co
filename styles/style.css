@@ -121,9 +121,29 @@ a {
     height: 37px;
 }
 
+@media only screen and (max-width: 600px) {
+    .branding .card-title {
+        font-size: 22px;
+    }
+
+    .branding .card-text {
+        font-size: 18px !important; 
+    }
+
+    .emoji {
+        width: 30px;
+        height: 30px;
+    }
+
+    .branding-text {
+        margin-left: 20px;
+    }
+}
+
+
 @media only screen and (max-width: 992px) {
     .branding {
-        text-align: center;
+        text-align: left;
     }
 
     .juice-image {
@@ -166,9 +186,31 @@ a {
     right: 135px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
     .element-position {
         position: static;
+    }
+
+    .icons .card-title {
+        font-size: 13px;
+    }
+
+    .icons .card-text {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 769px)  and (max-width: 992px) {
+    .element-position {
+        position: static;
+    }
+
+    .icons .card-title {
+        font-size: 14px;
+    }
+
+    .icons .card-text {
+        font-size: 12px;
     }
 }
 
@@ -200,11 +242,15 @@ a {
     .look-and-better {
         margin-right: 16px;
     }
+
+    .branding-strategy .card-title {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (max-width: 576px) {
     .branding-strategy-list h6 {
-        text-align: center;
+        text-align: left;
     }
 
     .branding-strategy-list h6 {
@@ -236,7 +282,8 @@ a {
 
 @media only screen and (max-width: 992px) {
     .trusted, .packaging {
-        text-align: center;
+        text-align: left;
+        margin-left: 10px;
     } 
 
     .packaging ul li {
@@ -247,6 +294,14 @@ a {
 @media only screen and (max-width: 760px) {
     .packaging {
         background-image: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .trusted-image {
+        position: relative;
+        left: 150px;
+        top: 100px
     }
 }
 
@@ -268,7 +323,15 @@ a {
 
 @media only screen and (max-width: 992px) {
     .who-are-we {
-        text-align: center;
+        text-align: left;
+    }
+
+    .who-we-are-text {
+        margin-left: 25px;
+    }
+
+    .who-we-are-icon-container {
+        margin-left: 10px;
     }
 
     .who-are-we .card-title {
@@ -497,3 +560,9 @@ footer .table td {
     }
 }
 
+
+@media only screen and (max-width: 600px) {
+    .footer-navbar {
+        margin-right: 50px;
+    }
+}
