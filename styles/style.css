@@ -1,4 +1,6 @@
 /* Common CSS */
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+
 .btn-primary {
     background-color: rgb(6, 17, 234);
 }
@@ -64,6 +66,12 @@ a {
 }
 
 /* Navbar CSS */
+header .logo-text {
+    font-size: 12px;
+    margin: 0;
+    font-family: 'Sofia', cursive;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: black;
     padding-right: 60px;
